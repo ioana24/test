@@ -22,7 +22,9 @@ public class DictionaryPage extends PageObject {
     @FindBy(name="go")
     private WebElementFacade lookupButton;
 
+
     public void enter_keywords_modified(String keyword) {
+
         searchTerms.type(keyword);
     }
 
